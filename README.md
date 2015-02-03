@@ -14,7 +14,10 @@ Short Instructions to run the metric
 2. Run the metric using evaluate_captions.m 
 3. Results can be found in data/{$output_file}
 
+---------
 Input
+---------
+
 ********************************************************************************************
 Terminology:
 
