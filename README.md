@@ -51,7 +51,7 @@ NOTE: Delete cache/refs folder after backing up the data whenever a new (previou
 NOTE: Delete cache/cands folder after backing up the data whenever evaluating for a new set of candidates. DO NOT
 		delete cache/refs if the reference dataset remains unchanged. This will cost a significant runtime overhead.
 
-**cache/refs and cache/cands contain the results of all the preprocessing needed to compute the score**
+cache/refs and cache/cands contain the results of all the preprocessing needed to compute the score
 
 --------------------
 Other Parameters
@@ -68,6 +68,7 @@ Runtime Parameter:
 
 If the MATLAB environment has access to parallel computing resources, set "cores = num_cores_available"
 If you don't understand what parpool/matlabpool is, you should probably set "cores = 1" as default
+
 --------------------
 Output
 --------------------
