@@ -77,6 +77,14 @@ Output
 1. scr: Cell array of size 1x5 containing CIDEr scores {CIDEr-1, CIDEr-2, CIDEr-3, CIDEr-4, CIDEr}.
 	Each cell contains a matrix of dimension (number of references, 1)
 
+
+--------------------
+Data
+--------------------
+
+1. PASCAL-50S dataset, as well as the pascal reference sentences used in the paper can be found in "data" folder.
+2. cache_pascal accessible from the project page contains the preprocessed files for references and candidates from the paper. Rename the cache_pascal as "cache" in the top level of the project to use the files for evaluation.
+
 Paralellization
 ********************************************************************************************
 Setting cores > 1 is likely to help when the reference dataset contains a large number of sentences 
