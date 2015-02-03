@@ -68,8 +68,9 @@ Runtime Parameter:
 
 If the MATLAB environment has access to parallel computing resources, set "cores = num_cores_available"
 If you don't understand what parpool/matlabpool is, you should probably set "cores = 1" as default
-
+--------------------
 Output
+--------------------
 ********************************************************************************************
 
 1. scr: Cell array of size 1x5 containing CIDEr scores {CIDEr-1, CIDEr-2, CIDEr-3, CIDEr-4, CIDEr}.
