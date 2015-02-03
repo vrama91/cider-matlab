@@ -85,7 +85,7 @@ Output
 Data
 --------------------
 
-1. PASCAL-50S dataset, as well as the pascal reference sentences used in the paper can be found in "data" folder.
+1. PASCAL-50S dataset, as well as the pascal reference sentences can be found in "data" folder.
 2. cache_pascal accessible from the project page contains the preprocessed files for references and candidates from the paper. Rename the cache_pascal as "cache" in the top level of the project to use the files for evaluation.
 
 Paralellization
