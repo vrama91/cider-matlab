@@ -3,9 +3,18 @@ Code for computing the CIDEr (Consensus-based Image Description Evaluation) metr
 
 ********************************************************************************************
 ********************************************************************************************
-			README - CIDEr (Consensus-based Image Description Evaluation) v 0.1
+			README - CIDEr (Consensus-based Image Description Evaluation) v 0.2
 								Tested on MATLAB R2013b
 ********************************************************************************************
+
+Note: Please use the Python version of CIDEr available at (https://github.com/hao-fang/mscoco_caption_eval), if possible. 
+The Python version is much faster than the MATLAB version.
+
+Changes from previous version (v0.1)
+-----------------------------
+1. Length based gaussian penalty added to similarity computation, to avoid gaming effects (func_cider.m L33)
+2. Clipping of the cosine similarity added in the numerator (func_cider.m L24)
+3. Stemming = 0 is the default option now, for preprocessing.
 
 Short Instructions to run the metric
 -----------------------------

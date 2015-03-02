@@ -6,10 +6,10 @@
 %
 % Author: Ramakrishna Vedantam
 
-% Standard Parameters
-params.ngrams = [1,2,3,4]; % default: ngrams = [1:4]
-params.stemming = 1; % default: stemming = 1
-
+% Standard Parameters - do not change these to compute CIDEr metric
+params.ngrams = [1:4]; % default: ngrams = [1:4]
+params.stemming = 0; % default: stemming = 0
+params.sigma = 6; % default: sigma = 6
 
 % Runtime Parameters
 params.cores = [1]; 
